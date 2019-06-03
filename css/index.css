@@ -79,6 +79,7 @@ h1, h2, h3, h4, h5 {
 		flex-flow: column;
 		width: 800px;
 		margin: 0 auto;
+		padding: 20px;
 	}
 
 }
@@ -232,6 +233,11 @@ button {
 	padding: 5px;
 }
 
+@media (max-width: 800px) {
+	.middlecontent {
+		margin-top: -30px;
+	}
+}
 @media (max-width: 500px){
 	.contentrow {
 		flex-direction: column;
@@ -273,6 +279,8 @@ hr {
 		padding-top: 15px;
 	}
 }
+
+
 
 /* services page styling */
 /* top of page */
