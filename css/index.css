@@ -209,7 +209,7 @@ h2 {
 		display: flex;
 		justify-content: center;
 		margin-top: 5px;
-		padding-right: 100px;
+		padding-left: 230px;
 	}
 }
 
@@ -242,11 +242,10 @@ button {
 @media (max-width: 500px){
 	.contentrow {
 		flex-direction: column;
-		padding: 0 10px;
 	}
 
 	.contentblock {
-		margin-bottom: 30px;
+		margin: 20px auto;
 	}
 }
 
@@ -260,12 +259,6 @@ hr {
 	width: 100%;
 }
 
-@media (max-width: 500px) {
-	.middle-img {
-		padding: 0 15px;
-	}
-}
-
 .phone {
 	margin: 20px 0;
 }
@@ -273,14 +266,6 @@ hr {
 .email {
 	margin: 20px 0;
 }
-
-@media (max-width: 500px) {
-	.contact {
-		margin-left: 20px;
-		padding-top: 15px;
-	}
-}
-
 
 
 /* services page styling */
