@@ -199,7 +199,8 @@ h2 {
 	}
 
 	.opener {
-		padding: 0 185px;
+		padding-right: 150px;
+		margin-top: 50px;
 	}
 }
 
